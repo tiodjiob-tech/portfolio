@@ -1,0 +1,767 @@
+/*==================================================
+            GRANDES TABLETTES
+==================================================*/
+
+@media (max-width:1200px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    .hero h1{
+
+        font-size:60px;
+
+    }
+
+    .hero h2{
+
+        font-size:30px;
+
+    }
+
+    .photo{
+
+        width:370px;
+        height:370px;
+
+    }
+    .about-content{
+
+    grid-template-columns:1fr;
+
+}
+
+.about-info{
+
+    grid-template-columns:1fr;
+
+}
+
+.qualities{
+
+    grid-template-columns:1fr;
+
+}
+
+.image-box{
+
+    width:300px;
+
+    height:300px;
+
+}
+
+}
+
+/*==================================================
+                TABLETTES
+==================================================*/
+
+@media (max-width:992px){
+
+    .hero-container{
+
+        grid-template-columns:1fr;
+        gap:60px;
+        text-align:center;
+
+    }
+
+    .hero-left{
+
+        order:2;
+
+    }
+
+    .hero-right{
+
+        order:1;
+
+    }
+
+    .hero-btn{
+
+        justify-content:center;
+
+    }
+
+    .social{
+
+        justify-content:center;
+
+    }
+
+    .photo{
+
+        width:340px;
+        height:340px;
+
+    }
+
+    .stats .container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/*==================================================
+                MOBILE
+==================================================*/
+
+@media (max-width:768px){
+
+/*************** MENU ***************/
+
+.menu{
+
+    display:block;
+
+    z-index:9999;
+
+}
+
+nav{
+
+    position:fixed;
+
+    top:80px;
+
+    right:-100%;
+
+    width:280px;
+
+    height:calc(100vh - 80px);
+
+    background:#111c2e;
+
+    transition:.4s;
+
+    border-left:1px solid rgba(255,255,255,.1);
+
+}
+
+nav.active{
+
+    right:0;
+
+}
+
+nav ul{
+
+    flex-direction:column;
+
+    padding:40px 25px;
+
+    gap:10px;
+
+}
+
+nav ul li{
+
+    width:100%;
+
+}
+
+nav ul li a{
+
+    display:block;
+
+    padding:16px;
+
+    border-radius:10px;
+
+}
+
+nav ul li a:hover{
+
+    background:#1b2944;
+
+}
+
+/*************** HERO ***************/
+
+.hero{
+
+    padding-top:130px;
+    padding-bottom:80px;
+
+}
+
+.hero h1{
+
+    font-size:48px;
+
+}
+
+.hero h2{
+
+    font-size:24px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+.photo{
+
+    width:300px;
+    height:300px;
+
+}
+
+.hero-btn{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.btn{
+
+    width:100%;
+    max-width:320px;
+    text-align:center;
+
+}
+
+.btn-outline{
+
+    width:100%;
+    max-width:320px;
+    text-align:center;
+
+}
+
+/*************** STATS ***************/
+
+.stats{
+
+    padding:60px 0;
+
+}
+
+.stats .container{
+
+    grid-template-columns:1fr;
+
+}
+
+.card{
+
+    padding:30px;
+
+}
+
+.card h2{
+
+    font-size:36px;
+
+}
+
+}
+
+/*==================================================
+            PETITS SMARTPHONES
+==================================================*/
+
+@media (max-width:576px){
+
+header .container{
+
+    height:70px;
+
+}
+
+.logo{
+
+    font-size:24px;
+
+}
+
+.hero{
+
+    min-height:auto;
+
+}
+
+.hero h1{
+
+    font-size:38px;
+
+}
+
+.hero h2{
+
+    font-size:20px;
+
+}
+
+.hero p{
+
+    line-height:1.8;
+
+}
+
+.photo{
+
+    width:250px;
+    height:250px;
+
+}
+
+.social{
+
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+.social a{
+
+    width:45px;
+    height:45px;
+
+    font-size:18px;
+
+}
+
+.card{
+
+    padding:25px;
+
+}
+
+.card i{
+
+    font-size:36px;
+
+}
+
+.card h2{
+
+    font-size:30px;
+
+}
+
+}
+
+/*==================================================
+            TRES PETITS ECRANS
+==================================================*/
+
+@media (max-width:380px){
+
+.hero h1{
+
+    font-size:32px;
+
+}
+
+.hero h2{
+
+    font-size:18px;
+
+}
+
+.photo{
+
+    width:210px;
+    height:210px;
+
+}
+
+.btn{
+
+    font-size:14px;
+
+    padding:14px 20px;
+
+}
+
+.btn-outline{
+
+    font-size:14px;
+
+    padding:14px 20px;
+
+}
+
+.logo{
+
+    font-size:20px;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.skills-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.full{
+
+    grid-column:auto;
+
+}
+
+.tools-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:576px){
+
+.tools-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.projects-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.project-btn{
+
+    flex-direction:column;
+
+}
+
+}
+
+/*==========================================
+        RESPONSIVE
+==========================================*/
+
+@media(max-width:1200px){
+
+    .projects-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:35px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .projects{
+
+        padding:100px 0;
+
+    }
+
+    .projects-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .project-card{
+
+        max-width:750px;
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .projects .section-title h2{
+
+        font-size:36px;
+
+    }
+
+    .project-content{
+
+        padding:25px;
+
+    }
+
+    .project-content h3{
+
+        font-size:24px;
+
+    }
+
+    .project-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .project-image{
+
+        height:280px;
+
+    }
+
+    .project-card:hover .project-image img{
+
+        transform:translateY(calc(-100% + 280px));
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .projects{
+
+        padding:80px 0;
+
+    }
+
+    .projects-grid{
+
+        gap:25px;
+
+    }
+
+    .project-content{
+
+        padding:20px;
+
+    }
+
+    .project-content h3{
+
+        font-size:22px;
+
+    }
+
+    .project-content p{
+
+        font-size:15px;
+
+    }
+
+    .project-tech{
+
+        gap:8px;
+
+    }
+
+    .project-tech span{
+
+        font-size:12px;
+
+        padding:7px 12px;
+
+    }
+
+    .browser-header{
+
+        padding:0 12px;
+
+    }
+
+    .status{
+
+        font-size:11px;
+
+        padding:5px 10px;
+
+    }
+
+    .project-image{
+
+        height:240px;
+
+    }
+
+    .project-card:hover .project-image img{
+
+        transform:translateY(calc(-100% + 240px));
+
+    }
+
+}
+
+/*==========================================
+        MODE CLAIR
+==========================================*/
+
+body.light .project-card{
+
+    background:#ffffff;
+
+    border:1px solid #d9e1ec;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+
+}
+
+body.light .browser-header{
+
+    background:#eef3f8;
+
+}
+
+body.light .project-tech span{
+
+    background:#eef4ff;
+
+    color:#1e293b;
+
+    border-color:#d6e2f5;
+
+}
+
+body.light .project-tech span:hover{
+
+    color:#fff;
+
+}
+
+body.light .project-content p{
+
+    color:#475569;
+
+}
+
+body.light .project-image::after{
+
+    background:linear-gradient(
+
+        transparent,
+
+        rgba(255,255,255,.05)
+
+    );
+
+}
+
+body.light .project-card:hover{
+
+    box-shadow:
+
+        0 25px 60px rgba(0,0,0,.12),
+
+        0 0 35px rgba(37,99,235,.15);
+
+}
+
+/*==========================================
+        PERFORMANCES
+==========================================*/
+
+.project-card,
+.project-image img,
+.project-tech span,
+.project-buttons a{
+
+    will-change:transform;
+
+}
+
+.project-card{
+
+    backface-visibility:hidden;
+
+}
+
+/*==========================================
+        SCROLLBAR IMAGE
+==========================================*/
+
+.project-image{
+
+    scrollbar-width:none;
+
+}
+
+.project-image::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+/*==========================================
+        ACCESSIBILITÉ
+==========================================*/
+
+.project-buttons a:focus{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:4px;
+
+}
+
+/*==========================================
+        ANIMATION DOUCE
+==========================================*/
+
+.project-card,
+.project-tech span,
+.project-buttons a,
+.status{
+
+    transition:
+
+        transform .35s ease,
+
+        background-color .35s ease,
+
+        color .35s ease,
+
+        border-color .35s ease,
+
+        box-shadow .35s ease;
+
+}
+
+@media(max-width:768px){
+
+.timeline::before{
+
+    left:20px;
+
+}
+
+.timeline-item{
+
+    gap:20px;
+
+}
+
+.timeline-dot{
+    width:45px;
+    height:45px;
+    min-width:45px;
+    font-size:18px;
+}
+
+.timeline-content{
+    padding:20px;
+}
+
+}
